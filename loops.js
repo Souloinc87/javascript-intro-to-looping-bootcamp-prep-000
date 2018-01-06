@@ -16,3 +16,13 @@ function whileLoop(n) {
   }
   return 'done'
 }
+
+function doWhileLoop(array) {
+  Math.random() >= 0.5 {
+    do {
+      array.length > && maybeTrue()
+    }
+    while (MaybeTrue())
+  }
+  return array 
+}
