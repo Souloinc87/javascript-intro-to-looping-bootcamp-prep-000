@@ -16,10 +16,14 @@ function whileLoop(n) {
   }
   return 'done'
 }
-function doWhileLoop(array) {
-  return Math.random() >+ 0.5
-do {
-  console.log(array.length > 0 && array)
+
+function maybeTrue() {
+  return Math.random() >= 0.5
 }
-return array
+function doWhileLoop(array) {
+  do{
+    array.length > 0 && maybeTrue()
+  }
+  while (maybeTrue())
+  return array
 }
